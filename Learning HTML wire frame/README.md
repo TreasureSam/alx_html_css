@@ -1,1 +1,1 @@
-coding can be fun, when you have time to learn
+/* coding can be fun, when you have time to learn */
