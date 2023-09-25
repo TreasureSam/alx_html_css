@@ -1,6 +1,6 @@
 body
 {
-    border: 3px solid black;
+    /* border: 3px solid black; */
     height: 100vh;
     padding: 10px;
 }
@@ -22,17 +22,73 @@ header div
     justify-content: space-between;
 }
 
-header div div
+.company-logo
 {
     border: solid red;
     width: 250px;
     border-radius: 5px;
 }
 
-header div div a
+.company-logo a
 {
     border: 1px solid brown;
     width: inherit;
     display: flex;
     justify-content: center;
+}
+
+#nav-links
+{
+    width: 400px;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#nav-links a
+{
+    border: 1px solid red;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main
+{
+    border: 2px solid black;
+    height: inherit;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+main section
+{
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    justify-content: center;    
+}
+
+#hero-section div
+{
+border: 1px solid black;
+width: 20%;
+}
+
+#hero-section div h1
+{
+    border: 1px solid black;
+}
+
+#hero-section div p
+{
+    border: 1px solid purple;
+}
+
+#hero-section div button
+{
+    border: 1px solid aqua;
 }
