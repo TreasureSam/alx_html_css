@@ -1,0 +1,38 @@
+body
+{
+    border: 3px solid black;
+    height: 100vh;
+    padding: 10px;
+}
+
+header
+{
+    border:  2px solid black;
+    height: 100px;
+    padding: 5px;
+}
+
+header div
+{
+    border: 1px solid black;
+    /* height: inherit; */
+    display: flex;
+    padding: 10px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+header div div
+{
+    border: solid red;
+    width: 250px;
+    border-radius: 5px;
+}
+
+header div div a
+{
+    border: 1px solid brown;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+}
